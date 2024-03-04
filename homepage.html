@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="homepage.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="script.js" type="module" defer></script>
+    <title>Previsão do Tempo</title>
+</head>
+<body>
+<main data-set='dark'>
+    <div class="theme-container">
+        <button id="themeSwitcher" class="theme-btn"> Trocar Tema </button>
+    </div>
+    <div class="container">
+        <div class="left-info">
+            <div class="pic-gradiant"></div>
+                <div class="today-info">
+                    <h2>Quarta-Feira</h2>
+                    <span> 31 de Janeiro de 2024</span>
+                    <div>
+                        <i class='bx bx-current-location'></i>
+                        <span>Natal, RN</span>
+                    </div>
+                </div>
+            <div class="today-weather">
+                <i class='bx bx-sun' ></i>
+                <h1 class="weather-temp">
+                    30°C
+                </h1>
+                <h3>Ensolarado</h3>
+            </div>
+        </div>
+        <div class="right-info">
+            <div class="day-info">
+                <div>
+                    <span class="title">CHUVA</span>
+                    <span class="value">0%</span>
+                </div>
+                <div>
+                    <span class="title">UMIDADE</span>
+                    <span class="value">71%</span>
+                </div>
+                <div>
+                    <span class="title">VENTO </span>
+                    <span class="value"> 23 km/h</span>
+                </div>
+            </div>
+
+            <ul class="days-list">
+                <li>
+                    <i class='bx bxs-sun' ></i>
+                    <span>quin.</span>
+                    <span class="day-temp">30°C</span>
+                </li>
+                <li>
+                    <i class='bx bxs-cloud-rain' ></i>
+                    <span>sex.</span>
+                    <span class="day-temp">27°C</span>
+                </li>
+                <li>
+                    <i class='bx bxs-cloud-rain' ></i>
+                    <span>sab.</span>
+                    <span class="day-temp">29°C</span>
+                </li>
+                <li>
+                    <i class='bx bxs-cloud-rain' ></i>
+                    <span>dom.</span>
+                    <span class="day-temp">26°C</span>
+                </li>
+            </ul>
+
+            <div class="btn-container">
+                <button class="loc-button">Procurar Localização</button>
+            </div>
+
+        </div>
+    </div>
+</main>    
+</body>
+</html>
